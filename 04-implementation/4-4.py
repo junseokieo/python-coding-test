@@ -6,7 +6,7 @@ visited[x][y] = 1
 
 game_map = []
 for _ in range(n):
-	game_map.append(list(map(int, input().split())))
+	game_map.append(list(map(int, input().split())))  # 2차원 배열 받는법
 
 #  북쪽, 동쪽, 남쪽, 서쪽을 0, 1, 2, 3으로 잡아준건
 #  dx = [북x, 동x, 남x, 서x], dy = [북y, 동y, 남y, 서y]로 하라고 떠먹여준 것.
