@@ -46,3 +46,5 @@ while True:
 	turn_cnt = 0
 
 print(cnt)
+
+# 해설을 보면서 작성하였습니다
